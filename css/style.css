@@ -75,8 +75,19 @@ main section{
 .participant{
     width: 200px;
     height: 120px;
-    margin-bottom: 10 px;
+    position: relative;
 
     /* DEBUG */
     background-color: beige;
+}
+
+.name-participant{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    /* DEBUG */
+    background-color: aquamarine;
+    height: 30px;
+    width: 90px;
 }
