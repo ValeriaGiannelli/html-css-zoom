@@ -28,18 +28,6 @@ header section{
     z-index: 900;
 }
 
-/* tasti in alto a destra */
-.commands{
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-
-    /* DEBUG */
-    width: 13%;
-    height: 80px;
-    background-color: aqua;
-}
-
 /* specifiche dei tasti */
 header section div{
     color: white;
@@ -73,7 +61,7 @@ main section{
     align-content: start;
     row-gap: 10px;
     column-gap: 5px;
-    /* overflow-y: auto;  */
+    overflow-y: auto; 
     
 
     /* DEBUG */
@@ -82,23 +70,28 @@ main section{
 
 /* specifiche del partecipante */
 .participant{
-    width: 200px;
-    height: 120px;
+    width: 250px;
+    height: 145px;
     position: relative;
 
     /* DEBUG */
     background-color: beige;
 }
 
+.participant img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .name-participant{
     position: absolute;
     left: 0;
     bottom: 0;
-
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 30px;
-    width: 90px;
+    background-color: rgba(116, 106, 106, 0.67);
+    color: white;
+    font-size: 14px;
+    padding: 5px;
 }
 
 
