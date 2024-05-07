@@ -11,10 +11,15 @@
 
 /* background dell'header */
 header section{
+    width: 100%;
     height: 80px;
     background-color: black;
     display: flex;
     justify-content: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
 }
 
 /* tasti in alto a destra */
@@ -57,7 +62,7 @@ main section{
 /* sezione dei partecipanti */
 #container{
     width: 85%;
-    margin: 0 auto;
+    margin: 80px auto;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +70,7 @@ main section{
     align-content: start;
     row-gap: 10px;
     column-gap: 5px;
+    /* overflow-y: auto;  */
     
 
     /* DEBUG */
@@ -96,8 +102,13 @@ main section{
 /* FOOTER */
 footer section{
     height: 80px;
+    width: 100%;
     background-color: gray;
     display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
 }
 
 #pc-command{
