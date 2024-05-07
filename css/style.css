@@ -14,18 +14,22 @@ body{
 /* HEADER */
 
 /* background dell'header */
-header section{
+header{
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+header section{
     height: 80px;
     background-color: black;
     display: flex;
     justify-content: end;
     align-items: start;
     gap: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 900;
+    
 }
 
 /* specifiche dei tasti */
