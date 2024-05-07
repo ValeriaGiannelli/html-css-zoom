@@ -113,7 +113,7 @@ footer section{
     align-items: center;
 }
 
-/* dettagli della sezione microfono */
+/* dettagli delle sezioni */
 .action{
     display: flex;
     align-items: center; 
@@ -130,13 +130,21 @@ footer section{
     font-size: 25px;
 }
 
+.action span, #end-meeting span{
+    cursor: pointer;
+}
 
+.action i:hover{
+    cursor: pointer;
+}
+
+/* dettaglio freccia su */
 i.fa-chevron-up{
     font-size: 12px;
     margin-left: 10px;
 }
 
-
+/* grandezza e posizione sezione centrale */
 #interaction{
     width: 80%;
     display: flex;
@@ -144,11 +152,13 @@ i.fa-chevron-up{
     align-items: center;
 }
 
+/* dettaglio condivisione schermo */
 i.fa-share-from-square{
     color: #51cc01;
 }
 
 
+/* sezione della fine meeting */
 #end-meeting{
     width: 20%;
     display: flex;
