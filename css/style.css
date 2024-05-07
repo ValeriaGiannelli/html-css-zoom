@@ -8,6 +8,8 @@
 
 
 /* HEADER */
+
+/* background dell'header */
 header section{
     height: 80px;
     background-color: black;
@@ -15,6 +17,7 @@ header section{
     justify-content: end;
 }
 
+/* tasti in alto a destra */
 .commands{
     display: flex;
     justify-content: space-between;
@@ -25,8 +28,10 @@ header section{
     background-color: aqua;
 }
 
+/* specifiche dei tasti */
 .commands div{
     background-color: gray;
+    border-radius: 5px;
 
     /* DEBUG */
     height: 20px;
@@ -39,3 +44,5 @@ header section{
 .full-screen{
     width: 15%;
 }
+
+
