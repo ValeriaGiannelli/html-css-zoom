@@ -54,7 +54,7 @@ main section{
 #container{
     width: 85%;
     margin: 80px auto;
-    height: 100vh;
+    height: calc(100vh - 160px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -62,28 +62,24 @@ main section{
     row-gap: 10px;
     column-gap: 5px;
     overflow-y: auto; 
-    
-
-    /* DEBUG */
-    background-color: rgb(224, 33, 167);
 }
 
 /* specifiche del partecipante */
+/* dimensione card oartecipante */
 .participant{
     width: 250px;
     height: 145px;
     position: relative;
-
-    /* DEBUG */
-    background-color: beige;
 }
 
+/* grandezza immagine */
 .participant img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/* posizioine e caratteristiche del nome */
 .name-participant{
     position: absolute;
     left: 0;
