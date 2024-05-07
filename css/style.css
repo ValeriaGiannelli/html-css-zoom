@@ -91,3 +91,39 @@ main section{
     height: 30px;
     width: 90px;
 }
+
+
+/* FOOTER */
+footer section{
+    height: 80px;
+    background-color: gray;
+    display: flex;
+}
+
+#pc-command{
+    width: 20%;
+
+    /* DEBUG */
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#interaction{
+    width: 80%;
+
+    /* DEBUG */
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#end-meeting{
+    width: 20%;
+    
+    
+    /* DEBUG */
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
