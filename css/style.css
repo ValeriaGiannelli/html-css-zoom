@@ -95,7 +95,7 @@ main section{
 footer section{
     height: 80px;
     width: 100%;
-    background-color: gray;
+    background-color: #222222;;
     display: flex;
     position: fixed;
     bottom: 0;
@@ -111,12 +111,6 @@ footer section{
     width: 20%;
     display: flex;
     align-items: center;
-    
-
-    /* DEBUG */
-    height: 100%;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 /* dettagli della sezione microfono */
@@ -148,11 +142,6 @@ i.fa-chevron-up{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* DEBUG */
-    height: 100%;
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 i.fa-share-from-square{
@@ -163,11 +152,16 @@ i.fa-share-from-square{
 #end-meeting{
     width: 20%;
     display: flex;
+    justify-content: end;
     align-items: center;
-    
-    
-    /* DEBUG */
-    height: 100%;
-    background-color: aqua;
-    border: 1px solid black;
+    color: red;
 }
+
+#end-meeting div{
+    background-color: gray;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
