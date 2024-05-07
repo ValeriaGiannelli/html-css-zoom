@@ -128,11 +128,12 @@ footer section{
 
 .action div{
     text-align: center;
+    font-size: 14px;
 }
 
 .action i{
     display: block;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -153,6 +154,11 @@ i.fa-chevron-up{
     background-color: aqua;
     border: 1px solid black;
 }
+
+i.fa-share-from-square{
+    color: #51cc01;
+}
+
 
 #end-meeting{
     width: 20%;
