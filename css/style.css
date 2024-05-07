@@ -4,3 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* HEADER */
+header section{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+}
+
+.commands{
+    display: flex;
+    justify-content: space-between;
+
+    /* DEBUG */
+    width: 15%;
+    height: 80px;
+    background-color: aqua;
+}
+
+.commands div{
+    background-color: gray;
+
+    /* DEBUG */
+    height: 20px;
+}
+
+.speaker-view{
+    width: 75%;
+}
+
+.full-screen{
+    width: 15%;
+}
