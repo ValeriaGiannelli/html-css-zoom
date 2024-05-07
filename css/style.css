@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Lato", sans-serif;
+}
+
 
 
 /* HEADER */
@@ -16,6 +20,8 @@ header section{
     background-color: black;
     display: flex;
     justify-content: end;
+    align-items: start;
+    gap: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,28 +32,25 @@ header section{
 .commands{
     display: flex;
     justify-content: space-between;
+    align-items: start;
 
     /* DEBUG */
-    width: 15%;
+    width: 13%;
     height: 80px;
     background-color: aqua;
 }
 
 /* specifiche dei tasti */
-.commands div{
+header section div{
+    color: white;
     background-color: gray;
+    padding: 5px;
     border-radius: 5px;
-
-    /* DEBUG */
-    height: 20px;
+    margin-top: 10px;
 }
 
-.speaker-view{
-    width: 75%;
-}
-
-.full-screen{
-    width: 15%;
+header section div:hover{
+    cursor: pointer;
 }
 
 
