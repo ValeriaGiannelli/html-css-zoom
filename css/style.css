@@ -46,3 +46,37 @@ header section{
 }
 
 
+
+/* MAIN */
+
+/* background */
+main section{
+    background-color: black;
+}
+
+/* sezione dei partecipanti */
+#container{
+    width: 85%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    row-gap: 10px;
+    column-gap: 5px;
+    
+
+    /* DEBUG */
+    background-color: rgb(224, 33, 167);
+}
+
+/* specifiche del partecipante */
+.participant{
+    width: 200px;
+    height: 120px;
+    margin-bottom: 10 px;
+
+    /* DEBUG */
+    background-color: beige;
+}
